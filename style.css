@@ -15,7 +15,7 @@ body{
 }
 .stopwatch{
     background-color: rgba(0,0,0,0.9);
-    padding: 20px 24px;
+    padding: 30px 60px;
     border-radius: 10px;
 }
 .timerdisplay{
@@ -33,4 +33,6 @@ body{
     background-color: var(--clr);
     color: beige;
     padding: 12px 24px;
+    margin-inline: 12px;
+    border-radius: 8px;
 }
