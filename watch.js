@@ -43,8 +43,8 @@ function starttimer(){
     //     msecString = msec;
     // }
     let msecString = msec < 10 ? `0${msec}` : msec;
-    let secsString = msec < 10 ? `0${msec}` : msec;
-    let minsString = msec < 10 ? `0${msec}` : msec;
+    let secsString = secs < 10 ? `0${secs}` : secs;
+    let minsString = mins < 10 ? `0${mins}` : mins;
 
     timerdisplay.innerHTML = `${minsString} : ${secsString} : ${msecString} ` ;
    
