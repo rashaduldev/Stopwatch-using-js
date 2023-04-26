@@ -13,7 +13,7 @@ startbtn.addEventListener('click',function(){
     if(timerId !== null){
         clearInterval(timerId);
     }
-   timerId = setInterval(starttimer,10);
+   timerId = setInterval(starttimer,1);
 });
 
 stopbtn.addEventListener('click',function(){
