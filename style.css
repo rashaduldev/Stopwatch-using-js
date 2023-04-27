@@ -23,7 +23,7 @@ body{
     font-weight: 600;
 }
 .buttons{
-    margin-top: 20px;
+    margin-block: 20px;
 }
 .btn{
     font-size: 20px;
