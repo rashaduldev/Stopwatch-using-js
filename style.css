@@ -28,7 +28,7 @@ body{
 .btn{
     font-size: 20px;
     background: none;
-    border: none;
+    border: 1px solid red;
     cursor: pointer;
     background-color: var(--clr);
     color: beige;
