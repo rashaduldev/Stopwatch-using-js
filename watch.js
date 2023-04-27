@@ -10,7 +10,7 @@ let mins = 00;
 let timerId = null;
 
 startbtn.addEventListener('click',function(){
-    if(timerId !== null){
+    if(timerId == null){
         clearInterval(timerId);
     }
    timerId = setInterval(starttimer,10);
