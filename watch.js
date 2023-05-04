@@ -3,11 +3,11 @@ let stopbtn=document.getElementById('stopbtn');
 let startbtn=document.getElementById('startbtn');
 let resetbtn=document.getElementById('resetbtn');
 
-let msec = 00;
-let secs = 00;
-let mins = 00;
+var msec = 00;
+var secs = 00;
+var mins = 00;
 
-let timerId = null;
+var timerId = null;
 
 startbtn.addEventListener('click',function(){
     if(timerId !== null){
@@ -23,6 +23,10 @@ stopbtn.addEventListener('click',function(){
 resetbtn.addEventListener('click',function(){
     clearInterval(timerId);
     timerdisplay.innerHTML = `00:00:00`;
+    msec = 00;
+    secs = 00;
+    mins = 00;
+    timerId = null;
 });
 
 function starttimer(){
